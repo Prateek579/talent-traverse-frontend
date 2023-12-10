@@ -1,0 +1,36 @@
+.signup_right_btn:hover {
+    opacity: 0.8;
+ }
+
+ @media(max-width: 1000px){
+    .signup_content{
+        width: 95%;
+    }
+ }
+ 
+ @media(max-width: 350px) {
+    .signup_content {
+       width: 97%;
+       flex-direction: column;
+       align-items: center;
+       justify-content: space-between;
+       padding: 5px;
+    }
+    .signup_left{
+       height: 160px;
+       width: 95%;
+    }
+    .signup_right{
+       height: 60%;
+       width: 95%;
+    }
+    .signup_right > input{
+      width: 100%;
+      margin-top: 10px;
+    }
+    .signup_right_btn{
+      margin: 8px 0px;
+      padding: 5px 10px;
+      font-size: 17px;
+    }
+ }

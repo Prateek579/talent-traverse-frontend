@@ -1,0 +1,38 @@
+.login_right_btn:hover {
+   opacity: 0.8;
+}
+
+@media(max-width: 1000px){
+   .login_content{
+      width: 95%;
+   }
+}
+
+@media(max-width: 400px) {
+   .login_content {
+      width: 97%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5px;
+   }
+   .login_left{
+      height: 160px;
+      width: 95%;
+   }
+   .login_right{
+      width: 95%;
+   }
+   .login_right>input{
+      width: 100%;
+      margin: 5px 0px;
+   }
+   .login_btns{
+      width: 100%;
+      justify-content: space-between;
+   }
+   .login_right_btn{
+      padding: 6px 10px;
+      margin: 8px 0px;
+   }
+}
