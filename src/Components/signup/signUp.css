@@ -8,7 +8,7 @@
     }
  }
  
- @media(max-width: 350px) {
+ @media(max-width: 400px) {
     .signup_content {
        width: 97%;
        flex-direction: column;
@@ -17,7 +17,7 @@
        padding: 5px;
     }
     .signup_left{
-       height: 160px;
+       height: 220px;
        width: 95%;
     }
     .signup_right{
@@ -31,6 +31,6 @@
     .signup_right_btn{
       margin: 8px 0px;
       padding: 5px 10px;
-      font-size: 17px;
+      font-size: 15px;
     }
  }
