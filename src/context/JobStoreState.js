@@ -24,7 +24,7 @@ const JobStoreState = (props) => {
     const apiKey = "42110a824d3fb1600bc19607a2725c3e";
 
     try {
-      const response = await axios.get("http://api.scraperapi.com", {
+      const response = await axios.get("https://api.scraperapi.com", {
         params: { api_key: apiKey, url: url },
       });
 
