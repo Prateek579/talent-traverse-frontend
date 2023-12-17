@@ -106,6 +106,7 @@ const Login = () => {
         if (result.success === true) {
           setAlertMessage(result.message);
           setResetCode(result.code);
+          setUserName(result.name);
         } else {
           setAlertMessage(result.message);
         }
