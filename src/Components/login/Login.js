@@ -74,6 +74,7 @@ const Login = () => {
             setAlertMessage(result.message);
             setInputCode(null);
             setUserDetails({ ...userDetails, password: "" });
+            setUserName(result.name)
           } catch (error) {
             console.log("Updating password error");
           }
